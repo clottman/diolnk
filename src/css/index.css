@@ -23,6 +23,7 @@ header {
 
 a {
     color: var(--coral);
+    text-decoration: none;
 }
 a:visited {
     color: #d25a7b;
@@ -48,6 +49,22 @@ h1 {
     width: 50%;
 }
 
+.links {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    list-style-type: none;
+}
+
+.links li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    outline: 2px var(--blue) solid;
+    border-radius: 5px;
+    padding: 5px;
+    width: fit-content;
+}
+
 @media only screen and (max-width: 812px) {
     .body {
         flex-direction: column;
@@ -56,16 +73,7 @@ h1 {
         width: 100%;
         max-width: 100%;
     }
-}
-
-.links {
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
-    list-style-type: circle;
-}
-
-.links li {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    .links {
+        padding-left: 0;
+    }
 }
