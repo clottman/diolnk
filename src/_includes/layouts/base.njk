@@ -7,16 +7,14 @@
     <meta property="og:title" content="{{ title or metadata.title }}">
     <meta name="description" property="og:description" content="{{ social_description or description or metadata.social_description }}">
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
-    <link rel="alternate" href="{{ metadata.feed.url }}" type="application/rss+xml" title="{{ metadata.title }}">
     <link rel="shortcut icon" href="{{ favicon or metadata.favicon }}" type="image/x-icon">
     <link rel="icon" href="{{ favicon or metadata.favicon }}" type="image/x-icon">
     
-    <meta property="twitter:image" content="{{ social_image or metadata.social_image}}">
-    <meta property="twitter:card" content="{{ twitter_card_style or metadata.twitter_card_style }}">
-    <meta property="og:image:width" content="{{ social_image_width or metadata.social_image_width}}">
-    <meta property="og:image:height" content="{{social_image_height or metadata.social_image_height}}">
-    <meta property="og:image" content="{{ social_image or metadata.social_image}}">
-    <meta property="twitter:image:alt" content="{{ social_image_alt or metadata.social_image_alt }}">
+    <meta property="twitter:image" content="https://diolnk.com/img/logo-with-words.png">
+    <meta property="twitter:card" content="summary">
+    <meta property="og:image:width" content="200">
+    <meta property="og:image" content="https://diolnk.com/img/logo-with-words.png">
+    <meta property="twitter:image:alt" content="a mess of hands holding tools, protest signs, and art supplies surrounded by the words DIO Fest 2022">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
