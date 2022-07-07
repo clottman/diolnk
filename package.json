@@ -1,0 +1,19 @@
+{
+  "name": "diolnk",
+  "version": "1.0.0",
+  "description": "a website for DIO Fest LNK",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve",
+    "debug": "DEBUG=* npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clottman/diolnk.git"
+  },
+  "author": "Cassey Lottman",
+  "bugs": {
+    "url": "https://github.com/clottman/diolnk/issues"
+  },
+  "homepage": "https://github.com/clottman/diolnk#readme"
+}
