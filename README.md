@@ -3,6 +3,7 @@ a website for DIO Fest LNK
 
 ## Setup
 `npm i` to install packages
+
 `npm run start` to start the web server for local development
 
 ## Contributing changes
