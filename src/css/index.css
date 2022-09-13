@@ -11,6 +11,12 @@
   
 h1 {
     font-size: 34px;
+    text-align: center;
+    color: --coral;
+}
+
+h2 {
+    margin-bottom: 8px;
 }
 
 .date, .location {
@@ -36,17 +42,22 @@ a:visited {
     background-color: var(--gray100);
 }
 
-h1 {
-    text-align: center;
-    color: --coral;
-}
-
 .body {
     display: flex;
 }
 .body div {
     max-width: 50%;
     width: 50%;
+}
+
+.details p {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.details ul {
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 .links {
